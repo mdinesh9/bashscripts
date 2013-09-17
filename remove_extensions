@@ -1,0 +1,6 @@
+#Make this script executable using chmod +x remove_extensions
+
+#Removes all the pyc files from the current directory
+for file in *.pyc
+do rm "$file"
+done
